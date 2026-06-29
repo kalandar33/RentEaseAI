@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#f8fafc,#dbeafe,#eef2ff);
+min-height:100vh;
+color:#1f2937;
+}
+
+/* Navbar */
+
+.navbar{
+background:rgba(15,23,42,.9)!important;
+backdrop-filter:blur(15px);
+box-shadow:0 8px 25px rgba(0,0,0,.15);
+}
+
+.navbar-brand{
+font-weight:700;
+font-size:26px;
+}
+
+.nav-link{
+color:white!important;
+margin-left:10px;
+transition:.3s;
+}
+
+.nav-link:hover{
+color:#60a5fa!important;
+}
+
+/* Hero */
+
+.hero{
+padding:120px 0;
+background:linear-gradient(135deg,#2563eb,#7c3aed);
+color:white;
+text-align:center;
+border-radius:0 0 40px 40px;
+}
+
+.hero h1{
+font-size:55px;
+font-weight:700;
+}
+
+.hero p{
+font-size:20px;
+opacity:.9;
+}
+
+/* Cards */
+
+.card{
+border:none;
+border-radius:22px;
+background:rgba(255,255,255,.75);
+backdrop-filter:blur(20px);
+box-shadow:0 15px 35px rgba(0,0,0,.08);
+transition:.35s;
+overflow:hidden;
+}
+
+.card:hover{
+transform:translateY(-8px);
+box-shadow:0 20px 45px rgba(37,99,235,.18);
+}
+
+/* Images */
+
+.card img{
+height:220px;
+object-fit:cover;
+}
+
+/* Buttons */
+
+.btn{
+border-radius:12px;
+padding:10px 22px;
+font-weight:600;
+transition:.3s;
+}
+
+.btn-primary{
+background:#2563eb;
+border:none;
+}
+
+.btn-primary:hover{
+background:#1d4ed8;
+transform:translateY(-2px);
+}
+
+.btn-warning{
+color:#000;
+}
+
+/* Forms */
+
+form{
+background:rgba(255,255,255,.85);
+padding:35px;
+border-radius:20px;
+box-shadow:0 15px 35px rgba(0,0,0,.08);
+}
+
+input,
+select,
+textarea{
+border-radius:12px!important;
+padding:12px!important;
+}
+
+/* Tables */
+
+.table{
+background:white;
+border-radius:15px;
+overflow:hidden;
+box-shadow:0 12px 30px rgba(0,0,0,.08);
+}
+
+.table thead{
+background:#1e293b;
+color:white;
+}
+
+/* Footer */
+
+footer{
+background:#0f172a;
+color:white;
+padding:50px 0;
+margin-top:60px;
+}
+
+footer a{
+color:white;
+text-decoration:none;
+}
+
+footer a:hover{
+color:#60a5fa;
+}
+
+/* Animation */
+
+.fade-up{
+animation:fadeUp .8s ease;
+}
+
+@keyframes fadeUp{
+
+from{
+opacity:0;
+transform:translateY(40px);
+}
+
+to{
+opacity:1;
+transform:translateY(0);
+}
+
+}
